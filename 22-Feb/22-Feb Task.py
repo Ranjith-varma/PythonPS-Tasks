@@ -1,43 +1,43 @@
 # #Print all numbers from 1 to 100 that are divisible by 3 and 5
 # #using a for loop.
 
-# for i in range(1,101):
-#     if i % 3 ==0:
-#         print("divisible by 3",i)
-#     elif i % 5 ==0:
-#         print("divisible by 5",i)
+for i in range(1,101):
+    if i % 3 ==0:
+        print("divisible by 3",i)
+    elif i % 5 ==0:
+        print("divisible by 5",i)
         
 
 # #Check if a given number is a prime number using a for
 # #loop.
 
-# num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
-# if num < 2:
-#     print(f"{num} is not a prime number.")
-# else:
-#     count = 0  
+if num < 2:
+    print(f"{num} is not a prime number.")
+else:
+    count = 0  
 
-#     for i in range(1, num + 1):
-#         if num % i == 0:
-#             count += 1  
+    for i in range(1, num + 1):
+        if num % i == 0:
+            count += 1  
 
-#     if count == 2:  
-#         print(f"{num} is a prime number.")
-#     else:
-#         print(f"{num} is not a prime number.")
+    if count == 2:  
+        print(f"{num} is a prime number.")
+    else:
+        print(f"{num} is not a prime number.")
         
 # #2nd way
-# number=int(input("Enter a Number:"))
-# flag=0
-# for i in range(2,number+1):
-#     if number%i==0:
-#         flag+=1
+number=int(input("Enter a Number:"))
+flag=0
+for i in range(2,number+1):
+    if number%i==0:
+        flag+=1
         
-# if flag==1:
-#     print(number,"is Prime Number")
-# else:
-#     print(number,"is Not Prime Number")
+if flag==1:
+    print(number,"is Prime Number")
+else:
+    print(number,"is Not Prime Number")
     
 #Write a program to calculate the factorial of a number using
 #a while loop.
