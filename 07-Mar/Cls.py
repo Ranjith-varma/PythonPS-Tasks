@@ -1,4 +1,4 @@
-#palindrome by using Finctions
+#palindrome by using Functions
 userinput=int(input("enter a number"))
 def reverse_num(inputs):
     replace=userinput

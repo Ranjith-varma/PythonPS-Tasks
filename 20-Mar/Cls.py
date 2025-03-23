@@ -115,15 +115,18 @@ string1="Google docs are much better than word docs"
 words=string1.split()
 print(words)
 
-longest_word= ''
+longest_word= []
 max_length=0
 
 for word in words:
     if len(word) > max_length:
         max_length = len(word)
-        longest_word = word
+        longest_word = [word]
+    elif len(word) == max_length:
+        longest_word.append(word)
 print(max_length)
 print(longest_word)
+
 
 #2nd Appraoch
 string1="Google docs are much better than word docs"
